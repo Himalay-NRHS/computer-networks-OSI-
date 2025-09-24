@@ -1,10 +1,6 @@
 # PHYSICAL LAYER (Layer 1)
 
-This layer deals with the raw physi### 👉 **Key Points:**
-- The Physical Layer **doesn't care** what's inside the letter
-- It just makes sure something moves from **point A to point B** as signals
-- Defines **how fast** the truck goes, **which road** it uses, and **what kind of fuel** it runs on
-- That's why it's called the **"hardware transmission layer"** — wires, voltages, light pulses, radio signals = its job
+This layer deals with the raw physical bits.
 It's the **medium** where the data transmits (like wires, WiFi, etc.)
 
 
