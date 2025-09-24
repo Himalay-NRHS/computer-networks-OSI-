@@ -2,17 +2,17 @@
 
 | **Feature** | **TCP** | **UDP** | **Explanation** | **Use Cases** | **Extra Notes** |
 |-------------|---------|---------|-----------------|---------------|-----------------|
-| **Speed** | Slow | Fast | TCP has overhead due to reliability features, UDP is lightweight | TCP: Web browsing, UDP: Gaming | *Add personal notes here* |
-| **Reliability** | Lossless | Can lose data | TCP ensures all data arrives, UDP doesn't guarantee delivery | TCP: File transfers, UDP: Live streaming | *Add exam tips/mnemonics* |
-| **Feedback** | Yes | No | TCP provides acknowledgments, UDP sends data without confirmation | TCP: Emails, UDP: DNS queries | *Add interview questions* |
-| **Connection** | Connection-oriented | Connectionless | TCP establishes connection first, UDP sends data directly | TCP: HTTP/HTTPS, UDP: DHCP | *Add 3-way handshake notes* |
-| **Error Checking** | Full error checking | Basic error checking | TCP retransmits lost data, UDP just detects errors | TCP: Banking apps, UDP: Video calls | *Add checksum details* |
-| **Header Size** | Larger (20 bytes) | Smaller (8 bytes) | More overhead in TCP for reliability features | *Add bandwidth impact examples* | *Add performance notes* |
-| **Flow Control** | Yes | No | TCP manages data flow rate between sender/receiver | *Add buffer overflow examples* | *Add sliding window notes* |
-| **Congestion Control** | Yes | No | TCP adjusts to network congestion, UDP doesn't | *Add network traffic examples* | *Add algorithm names* |
-| **Order of Data** | Maintains order | No order guarantee | TCP delivers data in correct sequence | *Add sequence number examples* | *Add packet reordering notes* |
-| **Examples** | Web pages, Emails, File downloads | Live streaming, Online gaming, DNS | | *Add more protocol examples* | *Add port numbers* |
-| **`NEW FEATURE`** | *Add new TCP feature* | *Add new UDP feature* | *Add explanation* | *Add use cases* | *Add your notes* |
+| **Speed** | Slow | Fast | TCP has overhead due to reliability features, UDP is lightweight | TCP: Web browsing, UDP: Gaming | - |
+| **Reliability** | Lossless | Can lose data | TCP ensures all data arrives, UDP doesn't guarantee delivery | TCP: File transfers, UDP: Live streaming | - |
+| **Feedback** | Yes | No | TCP provides acknowledgments, UDP sends data without confirmation | TCP: Emails, UDP: DNS queries | - |
+| **Connection** | Connection-oriented | Connectionless | TCP establishes connection first, UDP sends data directly | TCP: HTTP/HTTPS, UDP: DHCP | - |
+| **Error Checking** | Full error checking | Basic error checking | TCP retransmits lost data, UDP just detects errors | TCP: Banking apps, UDP: Video calls | - |
+| **Header Size** | Larger (20 bytes) | Smaller (8 bytes) | More overhead in TCP for reliability features | - | - |
+| **Flow Control** | Yes | No | TCP manages data flow rate between sender/receiver | - | - |
+| **Congestion Control** | Yes | No | TCP adjusts to network congestion, UDP doesn't | - | - |
+| **Order of Data** | Maintains order | No order guarantee | TCP delivers data in correct sequence | - | - |
+| **Examples** | Web pages, Emails, File downloads | Live streaming, Online gaming, DNS | | - | - |
+| **NEW FEATURE** | - | - | - | - | - |
 
 ## Summary
 - **TCP**: Reliable but slower - use when data accuracy is critical
